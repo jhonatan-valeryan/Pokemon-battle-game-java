@@ -72,19 +72,19 @@ src/
 
 ### Main Menu
 
-![Main Menu](screenshots/Main-menu.png)
+![Main Menu](screenshots/Main-menu.jpeg)
 
 ### Starter Pokémon Selection
 
-![Starter Selection](screenshots/Starter-selection.png)
+![Starter Selection](screenshots/Starter-selection.jpeg)
 
 ### Post Battle
 
-![Battle](screenshots/Post-attack.png)
+![Battle](screenshots/Post-attack.jpeg)
 
 ### Inventory
 
-![Leaderboard](screenshots/Check-inventory.png)
+![Leaderboard](screenshots/Check-inventory.jpeg)
 
 ---
 
