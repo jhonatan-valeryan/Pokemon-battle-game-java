@@ -74,7 +74,7 @@ src/
 
 Players can register a new account, log into an existing account, or exit the game.
 
-![Main Menu](screenshots/main-menu.jpeg)
+![Main Menu](screenshots/Main-menu.jpeg)
 
 ---
 
@@ -82,7 +82,7 @@ Players can register a new account, log into an existing account, or exit the ga
 
 New players choose one starter Pokémon before entering their first battle.
 
-![Starter Selection](screenshots/starter-selection.jpeg)
+![Starter Selection](screenshots/Starter-selection.jpeg)
 
 ---
 
@@ -90,7 +90,7 @@ New players choose one starter Pokémon before entering their first battle.
 
 Players choose a Pokémon, select one of its available move skills, and attack an opponent in a turn-based battle.
 
-![Battle](screenshots/battle.jpeg)
+![Battle](screenshots/Post-attack.jpeg)
 
 ---
 
@@ -98,7 +98,7 @@ Players choose a Pokémon, select one of its available move skills, and attack a
 
 Players can view the Pokémon currently stored in their inventory together with their statistics and move skills.
 
-![Inventory](screenshots/inventory.jpeg)
+![Inventory](screenshots/Check-inventory.jpeg)
 
 ---
 
