@@ -1,20 +1,20 @@
-# Pokémon Battle Game
+# Pokémon Battle Game (Java)
 
-A console-based Pokémon battle game developed in Java using Object-Oriented Programming (OOP). Players can register, log in, choose a starter Pokémon, battle against randomly generated opponents, catch Pokémon, and compete for the highest battle score on the leaderboard.
+A console-based Pokémon Battle Game developed in Java using Object-Oriented Programming (OOP). Players can register an account, log in, choose a starter Pokémon, battle against wild Pokémon, manage their Pokémon inventory, and compete on a leaderboard.
 
 ---
 
 ## Features
 
-- Player registration and login system
+- User registration and login
 - Starter Pokémon selection
 - Turn-based battle system
 - Multiple Pokémon elemental types
-- Pokémon catching system
-- Battle score calculation
-- Top 5 leaderboard
+- Pokémon move skills
 - Pokémon inventory management
-- Input validation
+- Battle score leaderboard
+- Pokémon catching system
+- Console-based user interface
 
 ---
 
@@ -25,7 +25,7 @@ A console-based Pokémon battle game developed in Java using Object-Oriented Pro
 - ArrayList
 - HashMap
 - Exception Handling
-- Random Number Generation
+- Random Class
 
 ---
 
@@ -53,54 +53,68 @@ src/
 
 | Class | Description |
 |--------|-------------|
-| Main | Starts the application and manages menus |
+| Main | Starts the application and displays the main menu |
 | Game | Handles player registration, login, and leaderboard |
 | Player | Stores player information and Pokémon inventory |
-| Battle | Controls turn-based battles |
+| Battle | Controls the battle flow between player and opponent |
 | Pokemon | Base class for all Pokémon |
 | FirePokemon | Fire-type Pokémon |
 | WaterPokemon | Water-type Pokémon |
 | ElectricPokemon | Electric-type Pokémon |
 | EarthPokemon | Earth-type Pokémon |
 | GrassPokemon | Grass-type Pokémon |
-| MoveSkill | Represents Pokémon moves |
-| Pokeball | Represents different Poké Balls used for catching |
+| MoveSkill | Stores Pokémon move information |
+| Pokeball | Represents different Poké Balls used during catching |
 
 ---
 
-## Screenshots
+# Screenshots
 
-### Main Menu
+## Main Menu
 
-![Main Menu](screenshots/Main-menu.jpeg)
+Players can register a new account, log into an existing account, or exit the game.
 
-### Starter Pokémon Selection
+![Main Menu](screenshots/main-menu.jpeg)
 
-![Starter Selection](screenshots/Starter-selection.jpeg)
+---
 
-### Post Battle
+## Starter Pokémon Selection
 
-![Battle](screenshots/Post-attack.jpeg)
+New players choose one starter Pokémon before entering their first battle.
 
-### Inventory
+![Starter Selection](screenshots/starter-selection.jpeg)
 
-![Leaderboard](screenshots/Check-inventory.jpeg)
+---
+
+## Battle System
+
+Players choose a Pokémon, select one of its available move skills, and attack an opponent in a turn-based battle.
+
+![Battle](screenshots/battle.jpeg)
+
+---
+
+## Pokémon Inventory
+
+Players can view the Pokémon currently stored in their inventory together with their statistics and move skills.
+
+![Inventory](screenshots/inventory.jpeg)
 
 ---
 
 ## How to Run
 
-1. Download or clone this repository.
-2. Open the project in Eclipse, IntelliJ IDEA, or VS Code.
-3. Make sure Java JDK 17 (or newer) is installed.
-4. Run `Main.java`.
+1. Clone or download this repository.
+2. Open the project using IntelliJ IDEA, Eclipse, or Visual Studio Code.
+3. Ensure Java JDK 17 (or later) is installed.
+4. Compile and run `Main.java`.
 5. Follow the console instructions.
 
 ---
 
 ## Object-Oriented Programming Concepts
 
-This project demonstrates:
+This project demonstrates several OOP concepts:
 
 - Encapsulation
 - Inheritance
@@ -114,12 +128,11 @@ This project demonstrates:
 ## Future Improvements
 
 - Save and load game progress
-- More Pokémon species
-- Additional move skills
-- Smarter AI opponents
-- Pokémon evolution
-- Healing system
-- Graphical User Interface (GUI)
+- Add more Pokémon species
+- Introduce additional move skills
+- Improve the catch probability algorithm
+- Add healing items and Pokémon Center
+- Develop a graphical user interface (GUI)
 
 ---
 
@@ -127,7 +140,6 @@ This project demonstrates:
 
 **Jhonatan Oktavianus Valeryan**
 
-Bachelor of Computer Networking and Security  
-Sunway University
+Bachelor of Computer Networking and Security
 
-GitHub: https://github.com/jhonatan-valeryan
+Sunway University
