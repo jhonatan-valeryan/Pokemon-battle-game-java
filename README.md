@@ -1,6 +1,6 @@
 # Pokémon Battle Game (Java)
 
-A console-based Pokémon Battle Game developed in Java using Object-Oriented Programming (OOP). Players can register an account, log in, choose a starter Pokémon, battle against wild Pokémon, manage their Pokémon inventory, and compete on a leaderboard.
+A console-based Pokémon Battle Game developed in Java using Object-Oriented Programming (OOP). Players can register an account, log in, choose a starter Pokémon, battle against randomly generated wild Pokémon, manage their Pokémon inventory, and compete for the highest score on the Top 5 leaderboard.
 
 ---
 
@@ -9,10 +9,11 @@ A console-based Pokémon Battle Game developed in Java using Object-Oriented Pro
 - User registration and login
 - Starter Pokémon selection
 - Turn-based battle system
-- Multiple Pokémon elemental types
-- Pokémon move skills
+- Five elemental Pokémon types (Fire, Water, Grass, Electric, and Earth)
+- Multiple Pokémon move skills
 - Pokémon inventory management
-- Battle score leaderboard
+- Randomly generated opponent Pokémon
+- Battle score leaderboard (Top 5)
 - Pokémon catching system
 - Console-based user interface
 
@@ -56,13 +57,13 @@ src/
 | Main | Starts the application and displays the main menu |
 | Game | Handles player registration, login, and leaderboard |
 | Player | Stores player information and Pokémon inventory |
-| Battle | Controls the battle flow between player and opponent |
+| Battle | Controls the battle flow between the player and wild Pokémon |
 | Pokemon | Base class for all Pokémon |
-| FirePokemon | Fire-type Pokémon |
-| WaterPokemon | Water-type Pokémon |
-| ElectricPokemon | Electric-type Pokémon |
-| EarthPokemon | Earth-type Pokémon |
-| GrassPokemon | Grass-type Pokémon |
+| FirePokemon | Represents Fire-type Pokémon |
+| WaterPokemon | Represents Water-type Pokémon |
+| ElectricPokemon | Represents Electric-type Pokémon |
+| EarthPokemon | Represents Earth-type Pokémon |
+| GrassPokemon | Represents Grass-type Pokémon |
 | MoveSkill | Stores Pokémon move information |
 | Pokeball | Represents different Poké Balls used during catching |
 
@@ -74,7 +75,7 @@ src/
 
 Players can register a new account, log into an existing account, or exit the game.
 
-![Main Menu](Screenshots/Main-menu.jpeg)
+![Main Menu](Screenshots/main-menu.jpeg)
 
 ---
 
@@ -82,23 +83,31 @@ Players can register a new account, log into an existing account, or exit the ga
 
 New players choose one starter Pokémon before entering their first battle.
 
-![Starter Selection](Screenshots/Starter-selection.jpeg)
+![Starter Selection](Screenshots/starter-selection.jpeg)
 
 ---
 
 ## Battle System
 
-Players choose a Pokémon, select one of its available move skills, and attack an opponent in a turn-based battle.
+Players select one of their Pokémon, choose one of its available move skills, and battle against randomly generated wild Pokémon in a turn-based combat system.
 
-![Battle](Screenshots/Post-attack.jpeg)
+![Battle](Screenshots/battle.jpeg)
 
 ---
 
 ## Pokémon Inventory
 
-Players can view the Pokémon currently stored in their inventory together with their statistics and move skills.
+Players can view the Pokémon currently stored in their inventory together with their type, HP, attack, defence, and available move skills.
 
-![Inventory](Screenshots/Check-inventory.jpeg)
+![Inventory](Screenshots/inventory.jpeg)
+
+---
+
+## Leaderboard
+
+After every battle, the player's battle score is recorded and displayed on the Top 5 leaderboard, allowing players to compare their highest scores.
+
+![Leaderboard](Screenshots/leaderboard.jpeg)
 
 ---
 
@@ -131,7 +140,7 @@ This project demonstrates several OOP concepts:
 - Add more Pokémon species
 - Introduce additional move skills
 - Improve the catch probability algorithm
-- Add healing items and Pokémon Center
+- Add healing items and a Pokémon Center
 - Develop a graphical user interface (GUI)
 
 ---
